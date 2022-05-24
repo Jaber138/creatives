@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'open sans', sans-serif;
+}
+
+p {
+    font-family: 'open sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+/*============================
+     Navbar
+============================*/
+.navbar-expand-lg {
+    background: #EFEFEF;
+    padding: 10px 50px;
+}
+
+.navbar .navbar-brand {
+    color: #4e4e4e;
+    font-size: 2.2rem;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar .navbar-brand:hover {
+    color: #4e4e4e;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    color: #4e4e4e;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 5px;
+    transition: all linear .1s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #1abb9c;
+}
+
+
+/*============================
+     bannar section
+============================*/
+#banner {
+    background: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bnr-overlay {
+    padding: 8% 0 9% 0;
+        margin-top: 83px;
+}
+
+.bnr-content {
+    color: #ffffff;
+    text-align: center;
+}
+
+.bnr-content h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin: 2% 16% 3% 16%;
+}
+
+.bnr-content h2 {
+    color: #a8a8a8;
+    margin: 0 30% 0 30%;
+}
+
+#banner .btn-primary {
+    margin-top: 56px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+/*============================
+     service section
+============================*/
+#service {
+    padding: 70px 5px 0 5px;
+}
+
+#service .container {
+    border-bottom: 2px solid #dcdcdc;
+}
+
+.service-logo {
+    text-align: center;
+}
+
+.service-logo img {
+    margin-bottom: 15px;
+    text-align: center
+}
+
+.service-logo h5 {
+    color: #4e4e4e;
+    margin-bottom: 16px;
+}
+
+.service-logo p {
+    color: #616161;
+    margin-bottom: 59px;
+}
+
+/*============================
+     portfolio section
+============================*/
+#portfolio {
+    padding: 50px 5px 30px 5px;
+}
+
+#portfolio .port-headline {
+    color: #4e4e4e;
+    margin-bottom: 20px;
+}
+
+#portfolio .work h5 {
+    color: #4e4e4e;
+    margin-top: 20px;
+}
+
+.work-type {
+    color: #a8a8a8;
+}
+
+.port-p {
+    color: #616161;
+}
+
+/*============================
+     quote section
+============================*/
+#quote {
+    padding: 50px 5px 50px 5px;
+    background: #efefef;
+    text-align: center;
+}
+
+#quote p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+    color: #a1a1a1;
+    margin: 2% 16%;
+}
+
+/*============================
+     Footer section
+============================*/
+#footer {
+    padding: 40px 0 7px 0;
+    background: #202020;
+    border-top: 10px solid #1a1a1a;
+}
+
+.footer-heading {
+    color: #6c6c6c;
+    font-size: 1.1rem;
+    font-weight: bold;
+    /*    letter-spacing: 1px;*/
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-details p {
+    color: #cacaca;
+    font-size: .8rem;
+    letter-spacing: .5px;
+}
+
+#footer i {
+    color: #a89574;
+    margin-right: 10px;
+}
+
+.footer-content {
+    padding-right: 54px;
+}
+
+.footer-border {
+    height: 2px;
+    width: 100%;
+    background: #383838;
+    margin: 20px 0 20px 0;
+}
+
+.copyright {
+    color: #cacaca;
+}
